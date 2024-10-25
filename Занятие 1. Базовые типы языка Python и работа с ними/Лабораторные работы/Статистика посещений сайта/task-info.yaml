@@ -3,8 +3,8 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 63
-        length: 80
+      - offset: 64
+        length: 79
         placeholder_text: "# TODO Добавьте словарь и замените в нем нулевые значения с\
       татисчикой посещений"
         initial_state:
@@ -22,7 +22,7 @@ files:
           stat["Уникальные посещения"] = len(set(users))
           
           print(stat)
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: __init__.py

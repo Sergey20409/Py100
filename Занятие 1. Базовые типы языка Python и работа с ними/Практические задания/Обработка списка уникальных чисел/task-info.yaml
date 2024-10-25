@@ -7,7 +7,7 @@ files:
     visible: true
     placeholders:
       - offset: 82
-        length: 209
+        length: 201
         placeholder_text: |-
           # TODO найти сумму, количество и среднее арифметическое уникальных чисел
           
@@ -15,7 +15,7 @@ files:
           print("Количество уникальных чисел:", ...)
           print("Среднее арифметическое уникальных чисел:", ...)
         initial_state:
-          length: 209
+          length: 201
           offset: 82
         initialized_from_dependency: false
         encrypted_possible_answer: |-
@@ -31,7 +31,7 @@ files:
               "Среднее арифметическое уникальных чисел:": average_of_numbers,
           }
           print(describe)
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests/output.txt

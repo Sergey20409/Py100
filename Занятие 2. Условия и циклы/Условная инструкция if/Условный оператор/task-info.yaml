@@ -3,7 +3,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 12
+      - offset: 11
         length: 55
         placeholder_text: "...  # TODO поочередно подставьте значения True и False"
         initial_state:
@@ -11,12 +11,12 @@ files:
           offset: 12
         initialized_from_dependency: false
         encrypted_possible_answer: "True"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
